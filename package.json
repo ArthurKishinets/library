@@ -1,0 +1,38 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Server driven by node with sql",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "node --experimental-modules index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKishinets/library.git"
+  },
+  "author": "Arthur Kishinets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArthurKishinets/library/issues"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "homepage": "https://github.com/ArthurKishinets/library#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "husky": "^1.0.0-rc.9",
+    "lint-staged": "^7.2.0"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
