@@ -9,7 +9,6 @@ connection.connect();
 export default async function evalQuery(query) {
     try {
         const result = await execQuery(connection, query);
-        console.log(result[0]);
         return result;
     } catch (e) {
         console.error(e);
