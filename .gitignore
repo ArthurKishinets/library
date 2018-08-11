@@ -1,3 +1,4 @@
 db/dbSettings.mjs
 node_modules
 dbSettings.mjs
+dist/
