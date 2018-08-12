@@ -1,4 +1,5 @@
 db/dbSettings.mjs
+db/dbSettings.js
 node_modules
 dbSettings.mjs
 dist/
